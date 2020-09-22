@@ -1,0 +1,17 @@
+public class fuckAround{
+
+     public static void main(String []args){
+         
+        char[][] grid = new char[6][7];
+        
+    
+        for (int row = 0; row < grid.length; row++){
+            //System.out.println("|");
+			for (int col = 0; col < grid[0].length; col++){
+				grid[row][col] = 'g';
+				System.out.println(grid[row][col]);
+	            //System.out.print("|");
+			}
+		}
+     }
+}
