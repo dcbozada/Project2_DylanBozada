@@ -10,9 +10,18 @@ public class ConnectFour {
     
     // Initializing array
     for (int row = 0; row < grid.length; row++) {
-      for (int col = 0; col < grid[row].length; col++) {
-        
+      for (int col = 0; col < grid[0].length; col++) {
+        grid[row][col] = ' ';
       }
+    }
+    
+    int turn = 1;
+    char player = 'R';
+    boolean winner = false;
+    
+    // First turn of game
+    while(winner == false && turn <= 42) {
+      boolean v
     }
   
   
